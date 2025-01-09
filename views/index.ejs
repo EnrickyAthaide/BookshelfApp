@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <form action="/register" method="post">
 
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="age" placeholder="Age">
+        
+        <label for="address">Address</label>
+        <textarea style="resize: none;" cols="30" rows="3"  name="address" id="address" placeholder="Enter Your Address Here"></textarea>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        
+        <button name="submit" type="submit" id="submit">Submit</button>
+        <button><a href="/login">Login Directly</a></button>
+    </form>
+</body>
+</html>
