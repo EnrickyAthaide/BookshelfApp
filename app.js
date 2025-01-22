@@ -55,7 +55,7 @@ app.post("/login",async (req,res)=>{
             res.redirect("/profile")
         }
         else{
-            res.status(400).send("Invalid password")
+            res.status(400).send("something went wrong")
         }
     })
 
